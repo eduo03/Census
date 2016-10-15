@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <string-array name="Gender_Spinner">
+    <item>Select Gender</item>
+    <item>Male</item>
+    <item>Female</item>
+  </string-array>
+
+  <string-array name="RHOUSE_Spinner">
+    <item>Select Relation To HouseHold Owner</item>
+    <item>Head</item>
+    <item>Spouse</item>
+    <item>Son</item>
+    <item>Daughter</item>
+    <item>Stepson</item>
+    <item>Stepdauhter</item>
+    <item>Son-in-law</item>
+    <item>Daughter-in-law</item>
+    <item>Grandson</item>
+    <item>Granddaughter</item>
+    <item>Father</item>
+    <item>Mother</item>
+    <item>Brother</item>
+    <item>Sister</item>
+    <item>Uncle</item>
+    <item>Aunt</item>
+    <item>Nephew</item>
+    <item>Niece</item>
+    <item>Other relative</item>
+    <item>Nonrelative</item>
+    <item>Border</item>
+    <item>Domestic Helper</item>
+  </string-array>
+
+  <string-array name="BirthCertCopy_Spinner">
+    <item>Birth Certificate Copy</item>
+    <item>Yes</item>
+    <item>No</item>
+  </string-array>
+
+  <string-array name="Marital_Spinner">
+    <item>Select Marital Status</item>
+    <item>Single</item>
+    <item>Married</item>
+    <item>Widowed</item>
+    <item>Divorced/Seperated</item>
+    <item>Common-Law,Live-in</item>
+    <item>Unknown</item>
+  </string-array>
+
+
+  <string-array name="SchoolAttend_Spinner">
+    <item>Select School Attending</item>
+    <item>Yes</item>
+    <item>No</item>
+  </string-array>
+
+  <string-array name="SchoolHigh_Spinner">
+    <item>Select Highest School Attend</item>
+    <item>No Grade Completed</item>
+    <item>Preschool</item>
+    <item>Grade 1</item>
+    <item>Grade 2</item>
+    <item>Grade 3</item>
+    <item>Grade 4</item>
+    <item>Grade 5</item>
+    <item>Grade 6</item>
+    <item>Grade 7</item>
+    <item>Grade 8</item>
+    <item>Grade 9</item>
+    <item>Grade 10</item>
+    <item>Grade 11</item>
+    <item>Grade 12</item>
+  </string-array>
+
+  <string-array name="Literacy_Spinner">
+    <item>Select Literacy</item>
+    <item>Yes</item>
+    <item>No</item>
+  </string-array>
+
+  <string-array name="WorkStatus_Spinner">
+    <item>Select Employment Status</item>
+    <item>Yes</item>
+    <item>No</item>
+  </string-array>
+
+
+  <string-array name="Building_Spinner">
+    <item>Select Building Type</item>
+    <item>Single</item>
+    <item>Duplex</item>
+    <item>Multi-unit residential</item>
+    <item>Comercial,industrial</item>
+    <item>Institutional living quarter</item>
+    <item>Tent</item>
+
+  </string-array>
+  <string-array name="Roof_Spinner">
+    <item>Select Roof Type</item>
+    <item>Galvanized iron,aluminum</item>
+    <item>Tile,concrete,clay tile</item>
+    <item>Half galvanized iron and half concete</item>
+    <item>Bamboo,cogon,nipa,anahaw</item>
+    <item>Absestos</item>
+    <item>Makeshift,salvaged,improvised material</item>
+    <item>Trapal</item>
+
+  </string-array>
+  <string-array name="Wall_Spinner">
+    <item>Select Wall Type</item>
+    <item>Concete,bricks,stone</item>
+    <item>Wood</item>
+    <item>Half concete,brick,stone and half wood</item>
+    <item>Galvanized iron,aluminum</item>
+    <item>Bamboo,sawali,cocogon,nipa</item>
+    <item>Glass</item>
+    <item>Makeshift,salvaged,improvised material</item>
+    <item>Trapal</item>
+  </string-array>
+  <string-array name="Light_Spinner">
+    <item>Select Source Of Light</item>
+    <item>Electricity</item>
+    <item>Kerosene</item>
+    <item>Liquefied petroleum gas</item>
+    <item>Oil</item>
+    <item>Solar Panel</item>
+    <item>Solar Lamp</item>
+    <item>None</item>
+  </string-array>
+  <string-array name="DRINK_Spinner">
+    <item>Select Source Of Drink</item>
+    <item>Own use faucet, community water system</item>
+    <item>Shared faucet, community water system</item>
+    <item>Own use, tubed,piped deep well</item>
+    <item>Shared tubed,piped deep well</item>
+    <item>Tubed,piped shallow well</item>
+    <item>Dug well</item>
+    <item>Protected spring</item>
+    <item>Unprotected spring</item>
+    <item>Lake,river,rain</item>
+    <item>Peddler</item>
+    <item>Bottled water</item>
+
+  </string-array>
+  <string-array name="Cook_Spinner">
+    <item>Select Use For Cooking</item>
+    <item>Own use faucet, community water system</item>
+    <item>Shared faucet, community water system</item>
+    <item>Own use, tubed,piped deep well</item>
+    <item>Shared tubed,piped deep well</item>
+    <item>Tubed,piped shallow well</item>
+    <item>Dug well</item>
+    <item>Protected spring</item>
+    <item>Unprotected spring</item>
+    <item>Lake,river,rain</item>
+    <item>Peddler</item>
+    <item>Bottled water</item>
+  </string-array>
+  <string-array name="Tenure_Spinner">
+    <item>Select Tenure Status</item>
+    <item>Yes</item>
+    <item>No</item>
+  </string-array>
+
+  <string-array name="Death_certificate">
+    <item>Copy Of Death Certificate</item>
+    <item>Yes</item>
+    <item>No</item>
+  </string-array>
+
+  <string-array name="Death_register">
+    <item>Death Registration</item>
+    <item>Yes</item>
+    <item>No</item>
+  </string-array>
+
+</resources>

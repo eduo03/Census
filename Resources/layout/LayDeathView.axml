@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/frameLayout1"
+        android:background="#333333">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout1">
+            <TextView
+                android:text="MEMBER DETAIL"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:id="@+id/textView2"
+                android:gravity="center"
+                android:textColor="#ffe2d9d9"
+                android:layout_marginLeft="8dp"
+                android:typeface="serif"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+        </LinearLayout>
+    </FrameLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout2">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+            android:id="@+id/scrollView1"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:paddingBottom="10dp">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/relativeLayout1"
+                android:paddingTop="5dp">
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/linaddinformationaddress">
+                    <TextView
+                        android:text="PERSONAL INFORMATION"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/textView2"
+                        android:gravity="center"
+                        android:textColor="#ff080808"
+                        android:background="#ffb3e5fc"
+                        android:textStyle="bold"
+                        android:typeface="serif" />
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/lblProvince"
+                    android:text="FIRST NAME :"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/linaddinformationaddress"
+                    android:paddingTop="10dp"
+                    android:typeface="serif"
+                    android:textStyle="italic" />
+                <EditText
+                    android:id="@+id/txtfname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/lblProvince"
+                    android:background="@drawable/textbordercurve"
+                    android:textSize="25dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:textStyle="normal"
+                    android:typeface="serif"
+                    android:textColor="#ff000000"
+                    android:textColorHint="#ff9d8f8f"
+                    android:hint="Enter First Name"
+                    android:editable="false" />
+                <TextView
+                    android:id="@+id/lbllname"
+                    android:text="LAST NAME :"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txtfname"
+                    android:paddingTop="10dp"
+                    android:typeface="serif"
+                    android:textStyle="italic" />
+                <EditText
+                    android:id="@+id/txtlname"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/lbllname"
+                    android:background="@drawable/textbordercurve"
+                    android:textSize="25dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:hint="Enter Last Name"
+                    android:textStyle="normal"
+                    android:typeface="serif"
+                    android:textColor="#ff000000"
+                    android:textColorHint="#ff9d8f8f"
+                    android:editable="false" />
+                <TextView
+                    android:id="@+id/lblBarangay"
+                    android:text="EXTENSION NAME :"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txtlname"
+                    android:paddingTop="10dp"
+                    android:typeface="serif"
+                    android:textStyle="italic" />
+                <EditText
+                    android:id="@+id/txtexname"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/lblBarangay"
+                    android:background="@drawable/textbordercurve"
+                    android:textSize="25dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:hint="Enter Extention Name"
+                    android:textStyle="normal"
+                    android:typeface="serif"
+                    android:textColor="#ff000000"
+                    android:textColorHint="#ff9d8f8f"
+                    android:editable="false" />
+                <TextView
+                    android:id="@+id/lblgender"
+                    android:text="GENDER :"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txtexname"
+                    android:paddingTop="10dp"
+                    android:typeface="serif"
+                    android:textStyle="italic" />
+                <EditText
+                    android:id="@+id/txtgender"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/lblgender"
+                    android:background="@drawable/textbordercurve"
+                    android:textSize="25dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:hint="Gender"
+                    android:textStyle="normal"
+                    android:typeface="serif"
+                    android:textColor="#ff000000"
+                    android:textColorHint="#ff9d8f8f"
+                    android:editable="false" />
+                <TextView
+                    android:id="@+id/lblrhouse"
+                    android:text="AGE AT DEATH :"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txtgender"
+                    android:paddingTop="10dp"
+                    android:typeface="serif"
+                    android:textStyle="italic" />
+                <EditText
+                    android:id="@+id/txtageatdeath"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/lblrhouse"
+                    android:background="@drawable/textbordercurve"
+                    android:textSize="25dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:hint="Relationship To HouseHold"
+                    android:textStyle="normal"
+                    android:typeface="serif"
+                    android:textColor="#ff000000"
+                    android:textColorHint="#ff9d8f8f"
+                    android:editable="false" />
+                <TextView
+                    android:id="@+id/lblbday"
+                    android:text="COPY OF DEATH CERTIFICATE :"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txtageatdeath"
+                    android:typeface="serif"
+                    android:paddingTop="10dp"
+                    android:textStyle="italic" />
+                <EditText
+                    android:id="@+id/txtcopydeathcert"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/lblbday"
+                    android:background="@drawable/textbordercurve"
+                    android:textSize="25dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:hint="Enter Birthday"
+                    android:textStyle="normal"
+                    android:typeface="serif"
+                    android:textColor="#ff000000"
+                    android:textColorHint="#ff9d8f8f"
+                    android:editable="false" />
+                <TextView
+                    android:id="@+id/lblcopybday"
+                    android:text="DEATH REGISTRATION :"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txtcopydeathcert"
+                    android:paddingTop="10dp"
+                    android:typeface="serif"
+                    android:textStyle="italic" />
+                <EditText
+                    android:id="@+id/txtdeathreg"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/lblcopybday"
+                    android:background="@drawable/textbordercurve"
+                    android:textSize="25dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:textStyle="normal"
+                    android:typeface="serif"
+                    android:textColor="#ff000000"
+                    android:textColorHint="#ff9d8f8f"
+                    android:editable="false" />
+            </RelativeLayout>
+        </ScrollView>
+    </RelativeLayout>
+</LinearLayout>

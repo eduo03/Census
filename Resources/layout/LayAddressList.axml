@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/FlyOutContent"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true"
+    android:background="#FFFFFF">
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/frameLayout1"
+        android:background="#333333">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout1">
+            <View
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/menuHdrButton"
+                android:layout_margin="4dp"
+                android:background="@drawable/action_menu" />
+            <TextView
+                android:text="ADDRESS INFORMATION"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:id="@+id/textView2"
+                android:gravity="center"
+                android:textColor="#fff6f6f6"
+                android:layout_marginLeft="8dp"
+                android:typeface="serif"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </FrameLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linsearch"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="4dp"
+        android:weightSum="6">
+        <EditText
+            android:id="@+id/txtsearch"
+            android:drawableLeft="@drawable/searchbutton"
+            android:hint="Search Address"
+            android:ems="10"
+            android:textColor="#000000"
+            android:background="@drawable/textbordercurve"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:inputType="text"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:paddingLeft="5dp" />
+        <Button
+            android:text="Sync"
+            android:id="@+id/btnSync"
+            android:textSize="18dp"
+            android:textColor="#ffe1f5fe"
+            android:textStyle="bold"
+            android:background="@drawable/ButtonStyle"
+            android:gravity="center"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:fillViewport="true"
+        android:scrollbars="vertical"
+        android:id="@+id/horizontalScrollView1">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:id="@+id/linearLayout2">
+            <TextView
+                android:text="Address List"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView5"
+                android:background="@drawable/textborder"
+                android:textColor="#ff616161"
+                android:gravity="center"
+                android:textStyle="bold" />
+            <ListView
+                android:id="@+id/lvlist"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:divider="#FFCC00"
+                android:layout_weight="1" />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:id="@+id/linbotton"
+                android:weightSum="3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:background="@drawable/textborder"
+                android:layout_marginBottom="5dp">
+                <Button
+                    android:text="Add"
+                    android:id="@+id/btnAddaddress"
+                    android:textSize="18dp"
+                    android:textColor="#ffe1f5fe"
+                    android:textStyle="bold"
+                    android:background="@drawable/ButtonStyle"
+                    android:gravity="center"
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2" />
+            </LinearLayout>
+        </LinearLayout>
+    </HorizontalScrollView>
+</LinearLayout>

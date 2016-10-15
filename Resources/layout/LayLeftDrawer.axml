@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="200dp"
+    android:layout_height="fill_parent"
+    android:background="#333333"
+    android:id="@+id/FlyOutMenu">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="200dp"
+        android:layout_height="fill_parent"
+        android:background="#333333">
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:id="@+id/textView1"
+            android:textColor="#ffc1c1c1"
+            android:textStyle="bold"
+            android:padding="4dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/census_leftdrawer"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="3dp"
+            android:id="@+id/view2"
+            android:background="#abe4e4e4"
+            android:layout_gravity="center"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="14dp"
+            android:layout_marginBottom="8dp" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout1"
+            android:layout_marginBottom="4dp">
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tableLayout1">
+                <TableRow
+                    android:id="@+id/tableRow1">
+                    <TextView
+                        android:text=" User's Name"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/MenuUserName"
+                        android:textColor="#ffc1c1c1"
+                        android:padding="4dp"
+                        android:drawableLeft="@drawable/logouser"
+                        android:gravity="center_vertical" />
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="3dp"
+            android:id="@+id/view2"
+            android:background="#abe4e4e4"
+            android:layout_gravity="center"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="14dp"
+            android:layout_marginBottom="8dp" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout1"
+            android:layout_marginBottom="4dp">
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <TableRow>
+                    <TextView
+                        android:text="  Interview"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/MenuInterviewer"
+                        android:textColor="#ffc1c1c1"
+                        android:padding="4dp"
+                        android:drawableLeft="@drawable/interview"
+                        android:gravity="center_vertical" />
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:id="@+id/view2"
+            android:background="#abe4e4e4"
+            android:layout_gravity="center"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="14dp"
+            android:layout_marginBottom="8dp" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout1"
+            android:layout_marginBottom="4dp">
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <TableRow>
+                    <TextView
+                        android:text="  Log out"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/MenuLogout"
+                        android:textColor="#ffc1c1c1"
+                        android:padding="4dp"
+                        android:clickable="true"
+                        android:drawableLeft="@drawable/logologout"
+                        android:gravity="center_vertical" />
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:id="@+id/view2"
+            android:background="#abe4e4e4"
+            android:layout_gravity="center"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="14dp"
+            android:layout_marginBottom="8dp" />
+    </LinearLayout>
+</ScrollView>

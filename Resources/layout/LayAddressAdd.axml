@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/frameLayout1"
+        android:background="#333333">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout1">
+            <TextView
+                android:text="ADD ADDRESS INFORMATION"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:id="@+id/lbladdresstitle"
+                android:gravity="center"
+                android:textColor="#ffe2d9d9"
+                android:layout_marginLeft="8dp"
+                android:typeface="serif"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+        </LinearLayout>
+    </FrameLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/linbotton"
+        android:weightSum="3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_marginBottom="8dp"
+        android:paddingLeft="5dp">
+        <Button
+            android:text="Add"
+            android:id="@+id/btnAddAddress"
+            android:textSize="18dp"
+            android:textColor="#ffe1f5fe"
+            android:textStyle="bold"
+            android:background="@drawable/ButtonStyle"
+            android:gravity="center"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout2">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+            android:id="@+id/scrollView1"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:layout_marginBottom="10dp">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/relativeLayout1"
+                android:paddingTop="5dp"
+                android:layout_marginBottom="8dp">
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/linaddinformationaddress">
+                    <TextView
+                        android:text="ADDRESS INFORMATION"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/textView2"
+                        android:gravity="center"
+                        android:textColor="#ff080808"
+                        android:background="#ffb3e5fc"
+                        android:textStyle="bold"
+                        android:typeface="serif" />
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/lblProvince"
+                    android:text="PROVINCE :"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/linaddinformationaddress"
+                    android:paddingTop="10dp"
+                    android:typeface="serif"
+                    android:textStyle="italic" />
+                <EditText
+                    android:id="@+id/txtProvince"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/lblProvince"
+                    android:background="@drawable/textbordercurve"
+                    android:textSize="25dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:textStyle="normal"
+                    android:typeface="serif"
+                    android:textColor="#ff000000"
+                    android:textColorHint="#ff9d8f8f"
+                    android:hint="Enter Province" />
+                <TextView
+                    android:id="@+id/lblCity"
+                    android:text="CITY/MUNICIPALITY :"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txtProvince"
+                    android:paddingTop="10dp"
+                    android:typeface="serif"
+                    android:textStyle="italic" />
+                <EditText
+                    android:id="@+id/txtCity"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/lblCity"
+                    android:background="@drawable/textbordercurve"
+                    android:textSize="25dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:hint="Enter City/Municipality"
+                    android:textStyle="normal"
+                    android:typeface="serif"
+                    android:textColor="#ff000000"
+                    android:textColorHint="#ff9d8f8f" />
+                <TextView
+                    android:id="@+id/lblBarangay"
+                    android:text="BARANGAY :"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txtCity"
+                    android:paddingTop="10dp"
+                    android:typeface="serif"
+                    android:textStyle="italic" />
+                <EditText
+                    android:id="@+id/txtBarangay"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/lblBarangay"
+                    android:background="@drawable/textbordercurve"
+                    android:textSize="25dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:hint="Enter Barangay"
+                    android:textStyle="normal"
+                    android:typeface="serif"
+                    android:textColor="#ff000000"
+                    android:textColorHint="#ff9d8f8f" />
+                <TextView
+                    android:id="@+id/lblBuildingSerail"
+                    android:text="BUILDING NUMBER :"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txtBarangay"
+                    android:paddingTop="10dp"
+                    android:typeface="serif"
+                    android:textStyle="italic" />
+                <EditText
+                    android:id="@+id/txtBuilding_no"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/lblBuildingSerail"
+                    android:imeOptions="actionNext"
+                    android:background="@drawable/textbordercurve"
+                    android:textSize="25dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:hint="Enter Building Number"
+                    android:textStyle="normal"
+                    android:typeface="serif"
+                    android:textColor="#ff000000"
+                    android:textColorHint="#ff9d8f8f" />
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/linaddinformationname"
+                    android:layout_below="@+id/txtBuilding_no">
+                    <TextView
+                        android:text="HOUSEHOLD INFORMATION"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/textView2"
+                        android:gravity="center"
+                        android:textColor="#ff000000"
+                        android:layout_marginTop="10dp"
+                        android:background="#ffb3e5fc"
+                        android:textStyle="bold"
+                        android:typeface="serif" />
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/lblFname"
+                    android:text="FIRST NAME :"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/linaddinformationname"
+                    android:paddingTop="10dp"
+                    android:typeface="serif"
+                    android:textStyle="italic" />
+                <EditText
+                    android:id="@+id/txtFname"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/lblFname"
+                    android:imeOptions="actionNext"
+                    android:maxLines="1"
+                    android:background="@drawable/textbordercurve"
+                    android:textSize="25dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:hint="Enter First Name"
+                    android:textStyle="normal"
+                    android:typeface="serif"
+                    android:textColor="#ff000000"
+                    android:textColorHint="#ff9d8f8f" />
+                <TextView
+                    android:id="@+id/lblLname"
+                    android:text="LAST NAME :"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txtFname"
+                    android:paddingTop="10dp"
+                    android:typeface="serif"
+                    android:textStyle="italic" />
+                <EditText
+                    android:id="@+id/txtLname"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/lblLname"
+                    android:imeOptions="actionNext"
+                    android:maxLines="1"
+                    android:background="@drawable/textbordercurve"
+                    android:textSize="25dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:hint="Enter Last Name"
+                    android:textStyle="normal"
+                    android:typeface="serif"
+                    android:textColor="#ff000000"
+                    android:textColorHint="#ff9d8f8f" />
+                <TextView
+                    android:id="@+id/lblContact"
+                    android:text="CONTACT NUMBER :"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txtLname"
+                    android:paddingTop="10dp"
+                    android:typeface="serif"
+                    android:textStyle="italic" />
+                <EditText
+                    android:id="@+id/txtContact"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/lblContact"
+                    android:imeOptions="actionNext"
+                    android:maxLines="1"
+                    android:background="@drawable/textbordercurve"
+                    android:textSize="25dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:hint="Enter Contact Number"
+                    android:textStyle="normal"
+                    android:typeface="serif"
+                    android:textColor="#ff000000"
+                    android:textColorHint="#ff9d8f8f"
+                    android:layout_marginBottom="10dp"
+                    android:phoneNumber="true" />
+            </RelativeLayout>
+        </ScrollView>
+    </RelativeLayout>
+</LinearLayout>

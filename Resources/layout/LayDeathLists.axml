@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fafafa"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1"
+        android:weightSum="40"
+        android:background="@drawable/textborder"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:descendantFocusability="blocksDescendants">
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout2"
+            android:layout_weight="39">
+            <TextView
+                android:text="Large Text"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/lvlfullname"
+                android:textStyle="bold"
+                android:textColor="#ff050000" />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/lintextdetail"
+                android:weightSum="2">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:minWidth="25px"
+                    android:minHeight="25px"
+                    android:layout_width="143.0dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/linowner"
+                    android:layout_weight="1">
+                    <TextView
+                        android:text="Relationship To HouseHold :"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView2"
+                        android:textColor="#ff757575" />
+                    <TextView
+                        android:text="Text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/lvlageatdeath"
+                        android:textColor="#ff000000" />
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:minWidth="25px"
+                    android:minHeight="25px"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/linstatus"
+                    android:layout_weight="1">
+                    <TextView
+                        android:text="Gender :"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView2"
+                        android:textColor="#ff757575" />
+                    <TextView
+                        android:text="Text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/lvlgender"
+                        android:textColor="#ff000000" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
